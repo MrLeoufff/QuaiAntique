@@ -7,8 +7,12 @@ html {
 }
 
 main {
+  margin-bottom: 320px;
+  @media (min-width: 750px) {
     margin-bottom: 250px;
+  }
 }
+
 
 footer.footer {
     padding: 15px;
@@ -35,9 +39,11 @@ p {
       background-size: cover;
       filter: brightness(0.3);
     }
+
     * {
       position: relative;
     }
+
     .hero-scene-content {
       height: 300px;
       display: flex;

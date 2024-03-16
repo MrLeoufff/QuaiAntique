@@ -11972,7 +11972,12 @@ html {
 }
 
 main {
-  margin-bottom: 250px;
+  margin-bottom: 320px;
+}
+@media (min-width: 750px) {
+  main {
+    margin-bottom: 250px;
+  }
 }
 
 footer.footer {
